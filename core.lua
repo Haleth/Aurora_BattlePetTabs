@@ -22,7 +22,6 @@ f:SetScript("OnEvent", function(self, event, addon)
 				bu:SetCheckedTexture(C.media.checked)
 
 				F.CreateBG(bu)
-				F.CreateSD(bu, 5, 0, 0, 0, 1, 1)
 
 				_G[tab.."ButtonIconTexture"]:SetTexCoord(.08, .92, .08, .92)
 			end
