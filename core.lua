@@ -10,7 +10,7 @@ f:SetScript("OnEvent", function(self, event, addon)
 
 	PetJournal:HookScript("OnShow", function(self)
 		if not self.styledTabs then
-			BattlePetTabsTabManager:SetPoint("TOPLEFT", "$parent", "BOTTOMLEFT", 10, 0)
+			BattlePetTabsTabManager:SetPoint("TOPLEFT", "$parent", "BOTTOMLEFT", 1, 0)
 
 			local function styleTab(tab)
 				local bu = _G[tab.."Button"]
