@@ -1,8 +1,8 @@
-## Interface: 50200
+## Interface: 50400
 ## Title: Aurora_BattlePetTabs
 ## Notes: Battle Pet Tabs plugin for Aurora and FreeUI.
 ## Author: Haleth/Freethinker
-## Version: 1.0
+## Version: 1.1
 ## RequiredDeps: BattlePetTabs
 ## OptionalDeps: FreeUI
 
